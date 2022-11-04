@@ -246,7 +246,7 @@ class App extends React.Component {
                   <div className="row">
                       <div className="col-12">
                           <div className="section-title">
-                              <h2>categorias</h2>
+                              <h2>Categorias</h2>
                           </div>
                       </div>
                   </div>
@@ -317,20 +317,102 @@ class App extends React.Component {
           </div>
          
          
-          <section className="shop-blog section">
+          <div className="product-area most-popular section">
               <div className="container">
                   <div className="row">
                       <div className="col-12">
                           <div className="section-title">
-                              <h2>Parte da Rapha</h2>
+                              <h2>Os mais Vendidos</h2>
                           </div>
                       </div>
                   </div>
+                  </div>
+                  </div>
+
+          <main>
+
+            <section className="courses-section">
+
+<div className="card">
+<img className="card-product" src="https://via.placeholder.com/330x330" alt="#" />
+
+ <h1 className="card-title"> Samsung Galaxy...</h1> 
+       
+ <h2 className="title-value"> R$ 1500,00 </h2>
+<button> Adicionar</button>
+ <h3 className="sub-title">No <span className="verde">Pix</span> ou em 6x no cartão</h3>
+                      </div>
 
 
-              </div>
-          </section>
-        
+
+                      <div className="card">
+                      <img className="card-product" src="https://via.placeholder.com/330x330" alt="#" />
+
+ <h1 className="card-title"> Notebook Dell</h1> 
+       
+ <h2 className="title-value"> R$ 2000,00 </h2>
+<button> Adicionar</button>
+ <h3 className="sub-title"><span className="verde">Frete grátis</span> </h3>
+                      </div>
+
+                      
+
+                      <div className="card">
+                      <img className="card-product" src="https://via.placeholder.com/330x330" alt="#" />
+
+ <h1 className="card-title"> Processadora Md </h1> 
+       
+ <h2 className="title-value"> R$ 600,00 </h2>
+<button> Adicionar</button>
+ <h3 className="sub-title">No <span className="verde">Pix</span> ou em 12x no cartão</h3>
+
+</div>
+
+
+
+                      <div className="card">
+                      <img className="card-product" src="https://via.placeholder.com/330x330" alt="#" />
+
+ <h1 className="card-title"> Headphones HyperX...</h1> 
+       
+ <h2 className="title-value"> R$ 1000,00 </h2>
+<button> Adicionar</button>
+ <h3 className="sub-title"> <span className="verde">Frete grátis</span> </h3>
+
+</div>
+
+
+<div className="card">
+ <img className="card-product" src="https://via.placeholder.com/330x330" alt=""/>
+ <h1 className="card-title"> Placa de video GPX...</h1> 
+       
+ <h2 className="title-value"> R$ 800,00 </h2>
+<button> Adicionar</button>
+ <h3 className="sub-title">No <span className="verde">Pix</span> ou em 10x no cartão</h3>
+
+</div>
+
+
+
+<div className="card">
+ <img className="card-product" src="https://via.placeholder.com/330x330" alt=""/>
+ <h1 className="card-title"> Headset Corsair</h1> 
+       
+ <h2 className="title-value"> R$ 900,00 </h2>
+<button> Adicionar</button>
+ <h3 className="sub-title"> <span className="verde">Frete grátis</span> </h3>
+
+</div>
+
+
+
+
+
+
+
+             </section>
+              </main>
+
           <footer className="footer">
              
               <div className="footer-top section">
@@ -340,23 +422,23 @@ class App extends React.Component {
                               
                               <div className="single-footer about">
                                   <div className="logo">
-                                      <a href="#">Footer parte da Rapha</a>
+                                      <a href="#">Ad Soluções em Tecnologia</a>
                                   </div>
-                                  <p className="text">Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue,  magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
-                                  <p className="call">Got Question? Call us 24/7<span><a href="tel:123456789">+0123 456 789</a></span></p>
+                                  <p className="text">neque id cursus ucibus, tortor neque egestas augue,  magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+                                  <p className="call"><span><a href="tel:111111111">14 99745473</a></span></p>
                               </div>
                              
                           </div>
                           <div className="col-lg-2 col-md-6 col-12">
                              
                               <div className="single-footer links">
-                                  <h4>Information</h4>
+                                  <h4>Links Úteis</h4>
                                   <ul>
-                                      <li><a href="#">About Us</a></li>
-                                      <li><a href="#">Faq</a></li>
-                                      <li><a href="#">Terms & Conditions</a></li>
-                                      <li><a href="#">Contact Us</a></li>
-                                      <li><a href="#">Help</a></li>
+                                      <li><a href="#">Home</a></li>
+                                      <li><a href="#">Quem somos</a></li>
+                                      <li><a href="#">Política de Privacidade</a></li>
+                                      <li><a href="#">Termos de serviço</a></li>
+                                      <li><a href="#">Ajuda</a></li>
                                   </ul>
                               </div>
                             
@@ -364,13 +446,13 @@ class App extends React.Component {
                           <div className="col-lg-2 col-md-6 col-12">
                             
                               <div className="single-footer links">
-                                  <h4>Customer Service</h4>
+                                  <h4>Formas de Pagamento </h4>
                                   <ul>
-                                      <li><a href="#">Payment Methods</a></li>
-                                      <li><a href="#">Money-back</a></li>
-                                      <li><a href="#">Returns</a></li>
-                                      <li><a href="#">Shipping</a></li>
-                                      <li><a href="#">Privacy Policy</a></li>
+                                      <li><a href="#">Pix</a></li>
+                                      <li><a href="#">Cartôes C e D</a></li>
+                                      <li><a href="#">Pag Seguro</a></li>
+                                      <li><a href="#">Moip</a></li>
+                                      <li><a href="#">Pay Pal</a></li>
                                   </ul>
                               </div>
                             
@@ -378,14 +460,14 @@ class App extends React.Component {
                           <div className="col-lg-3 col-md-6 col-12">
                             
                               <div className="single-footer social">
-                                  <h4>Get In Tuch</h4>
+                                  <h4>Atendimento</h4>
                                 
                                   <div className="contact">
                                       <ul>
-                                          <li>Ludhiana.</li>
-                                          <li>Punjab, India.</li>
-                                          <li>therichpost.com</li>
-                                          <li>+0000000000</li>
+                                          <li>chat.</li>
+                                          <li>endereço.</li>
+                                          <li>site da ad.com</li>
+                                          <li>14 99685768</li>
                                       </ul>
                                   </div>
                                 
@@ -408,12 +490,12 @@ class App extends React.Component {
                           <div className="row">
                               <div className="col-lg-6 col-12">
                                   <div className="left">
-                                      <p>Copyright © 2021 <a href="#" target="_blank">Jassa</a>  -  All Rights Reserved.</p>
+                                      <p>Copyright © 2022 <a href="#" target="_blank">  AD Soluções em Tecnologia</a>  - Todos os direitos reservados.</p>
                                   </div>
                               </div>
                               <div className="col-lg-6 col-12">
                                   <div className="right">
-                                      <img src="assets/images/payments.png" alt="#" />
+                                    
                                   </div>
                               </div>
                           </div>

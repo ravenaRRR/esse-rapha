@@ -90,7 +90,7 @@
 	box-shadow: 0px 4px 19px #00000038;
 }
 #scrollUp i:hover{
-	background:rgb(214, 103, 28);
+	background:rgb(88, 153, 238);
 	color:#fff;
 }
 /*======================================
@@ -474,7 +474,7 @@
 	font-weight: 500;
 }
 .header .shopping-item .bottom .btn:hover{
-	background:#F7941D;
+	background:#4585e6;
 	color:#fff;
 }
 .header.shop{
@@ -1271,7 +1271,7 @@
 	line-height: 37px;
 }
 .hero-area3 .big-content .title span{
-	color:#F7941D;
+	color: #1d50f7;
 }
 .hero-area3 .big-content .des{}
 .hero-area3 .big-content .button{
@@ -1310,7 +1310,7 @@
 	text-transform: capitalize;
 }
 .hero-area3 .small-content .title span{
-	color:#F7941D;
+	color: #1d50f7;
 }
 .hero-area3 .small-content .des{}
 .hero-area3 .small-content .button{
@@ -1325,8 +1325,8 @@
 	font-size: 13px;
 }
 .hero-area3 .small-content .button .btn:hover{
-	color:#F7941D;
-	border-color:#F7941D;
+	color: #1d50f7;
+	border-color: #415dbb;
 }
 /* Hero Area 4 */
 .hero-area4 .big-content{
@@ -1446,7 +1446,7 @@
 }
 .most-popular .owl-carousel .owl-nav div:hover{
 	color:#fff;
-	background:#F7941D;
+	background: #1d50f7;
 }
 .most-popular .owl-carousel .owl-controls .owl-nav .owl-prev{
 	left:0;
@@ -1492,7 +1492,7 @@
 }
 .product-area .nav-tabs li a.active,
 .product-area .nav-tabs li:hover a{
-	background:#F7941D;
+	background: #1d50f7;
 	color:#fff;
 	border-color:transparent;
 }
@@ -1556,7 +1556,7 @@
 	border-bottom:6px solid transparent;
 }
 .single-product .product-img .product-action a:hover {
-	color:#F7941D;
+	color: #1d50f7;
 }
 .single-product .product-img .product-action a:hover span {
   visibility: visible;
@@ -1598,7 +1598,7 @@
 	display: inline-block;
 }
 .single-product .product-img .product-action-2 a:hover {
-  color:#F7941D;
+  color: #1d50f7;
 }
 .single-product .button-head {
 	background: #fff;
@@ -1685,7 +1685,7 @@
 	margin: 45px;
 }
 .single-product .product-content h3 a:hover{
-	color:#F7941D;
+	color: rgb(102, 142, 230);
 }
 
 /*======================================
@@ -1716,7 +1716,7 @@
 	text-align: center;
 }
 .error-page .error-inner h2 {
-	color: #F7941D;
+	color:  #1d50f7;
 	margin-bottom: 0;
 	font-weight: 700;
 	font-size: 100px;
@@ -1756,7 +1756,7 @@
 }
 .error-page .button .btn:hover{
 	color:#fff;
-	background:#F7941D;
+	background: #1d50f7;
 	border-color:transparent;
 }
 /*=============================
@@ -1796,7 +1796,7 @@
 	display: block;
 }
 .footer .about .call a {
-	color: #f7941d;
+	color: #101cca;
 	font-size: 20px;
 	font-weight: 600;
 }
@@ -1813,7 +1813,7 @@
 	font-weight: 400;
 }
 .footer .links ul li a:hover{
-	color:#F7941D;
+	color:#101cca;
 	padding-left:10px;
 }
 .footer .social{}
@@ -1844,7 +1844,7 @@
 	font-size:16px;
 }
 .footer .social ul li a:hover{
-	color:#F7941D;
+	color:#101cca;
 }
 /* Copyright */
 .footer .copyright{
@@ -1868,3 +1868,171 @@
 /*=============================
 	End Footer CSS
 ===============================*/
+
+
+
+
+main{
+	margin-bottom: 100PX;
+  
+	width: 100%;
+	min-height: 50vh;
+  height: 1000px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #F8F7F7;
+	z-index: 1;
+  }
+  
+  @media (max-width: 850px) {
+	main{
+	  width: 100%;
+	  height: 2500px;
+	  min-width: 10vh;
+	  min-height: 70vh;
+	
+	}
+  }
+  
+  
+  @media  (min-width: 851px) and ( max-width: 1200px) {
+	main{
+	  width: 100%;
+	  height: 1500px;
+	  min-width: 10vh;
+	  min-height: 70vh;
+	
+	}
+  }
+  
+  
+  .courses-section{
+  max-width: 900px;
+  width: 90%;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 6rem;
+  margin-bottom: 50px;
+  }
+  
+  @media (max-width: 1150px) {
+	.courses-section{
+	  max-width: 500px;
+	  grid-template-columns: 1fr 1fr;
+  
+	}
+  }
+	
+  
+  @media (max-width: 850px) {
+	.courses-section{
+	  max-width: 200px;
+	  grid-template-columns: 1fr ;
+	}
+  }
+  
+  
+  .card {
+	background: white;
+	width: 100%;
+	padding: 2rem;
+  height:100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+	border-radius: 6px;
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+  }
+  
+  @media (max-width: 850px) {
+	.card{
+	  width: 70%;
+	padding: 2rem;
+  height:100%;
+  
+	}
+  }
+  
+  
+  button{
+	border: none;
+	padding: 0 2rem;
+	height: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	background: blue;
+	border-radius: 0.75rem;
+  
+	cursor: pointer;
+	color: white;
+	font: Poppins;
+  transition: 0.5s;
+  font-size: 15px;
+  }
+  
+  button:hover{
+	color: blue;
+	background: white;
+  
+  }
+  
+  .card-product{
+	width: 50%;
+  object-fit: cover;
+  
+  }
+  
+  .card-title{
+	font-family: Poppins;
+  font-size: 1rem;
+  margin: 1rem 0;
+  }
+  
+  
+  
+  .Title{
+	color: rgb(33, 33, 141);
+	margin: 50px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding-bottom:0px ;
+	font-size: 50px;
+  }
+  
+  .item-logo{
+   width: 150px;
+   margin-left: 100px;
+   border-radius: 50%;
+  }
+  
+  .verde{
+	color:green;
+  }
+  
+  h3.sub-title{
+  font-size: 12px;
+  font-family: Poppins;
+  color: gray;
+  margin-top: 10px;
+  }
+  
+  h2.title-value{
+  
+	font-size: 20px;
+	font-family: Poppins;
+	margin: 5px;
+  
+  }
+
+  .section-title h2::before{
+	background:  rgb(33, 33, 141);
+
+  }
